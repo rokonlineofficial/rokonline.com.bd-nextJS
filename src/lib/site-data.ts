@@ -14,6 +14,21 @@ import maidit from "@/assets/maid-it.png";
 import greenleaf from "@/assets/greenleaf.png";
 import junkRobbers from "@/assets/junk-robbers.png";
 import gloriaCleaning from "@/assets/gloriaCleaning.png";
+import cleanIQ from "@/assets/cleanIQ.png";
+import sireSoundsDJ from "@/assets/sireSoundsDJ.png";
+import weHaulRaleigh from "@/assets/weHaulRaleigh.png";
+import jcsu100Club from "@/assets/jcsu100Club.png";
+import cfeAccounting from "@/assets/cfeAccounting.png";
+import IntegratedHealth from "@/assets/4cIntegratedHealth.png";
+import cableGuy from "@/assets/cableGuy.png";
+import vpdContracting from "@/assets/vpdContracting.png";
+import bnfJunkRemoval from "@/assets/bnfJunkRemoval.png";
+import ahApplianceRepair from "@/assets/ahApplianceRepair.png";
+import arosaWithin from "@/assets/arosaWithin.png";
+import effortlessMindMeditation from "@/assets/effortlessMindMeditation.png";
+import agapeCleaningServices from "@/assets/agapeCleaningServices.png";
+import nissiCleaningService from "@/assets/nissiCleaningService.png";
+
 
 export const company = {
   name: "Rok Online",
@@ -713,6 +728,201 @@ export const portfolio = [
     description:
       "A digital marketing and website development project focused on improving organic visibility, branding and online customer acquisition.",
     link: "",
+  },
+
+  {
+    title: "Clean iQ Foxcity",
+    slug: "clean-iq-foxcity",
+    industry: "Cleaning Service",
+    category: "Web Development",
+    services: ["SEO", "Web Development", "Branding"],
+    result: "A modern cleaning service website designed to showcase services and improve online presence.",
+    accent: "from-primary/45 to-accent/25",
+    image: cleanIQ,
+    description: "CleanIQ Fox Cities is a professional cleaning service website developed on WordPress, with a service-focused structure designed to generate cleaning-service inquiries and quote requests. The website includes dedicated service pages, an online “Calculate Your Own Quote” flow, FAQ content, contact information, responsive navigation and conversion-focused calls to action. The site also uses Revolution Slider (RevSlider) for its visual slider/hero functionality, which is confirmed by the site's publicly exposed WordPress plugin assets. CleanIQ The development process involved planning the website structure and user journey, designing a professional cleaning-service interface, creating responsive layouts for desktop, tablet and mobile, developing service-specific content sections, integrating the quote/request functionality, adding FAQ and contact sections, optimizing calls to action and ensuring the website clearly communicates the company's service area and booking process. The overall approach was focused on WordPress-based business website development, responsive UI design, lead generation, service presentation and conversion optimization. The exact WordPress theme and complete plugin list are not reliably exposed by the publicly accessible page, so I would not claim a specific theme without confirmation from the site's backend.",
+    link: "https://cleaniqfoxcities.com/",
+  },
+
+  {
+    title: "Sire Sounds DJ",
+    slug: "sire-sounds-dj",
+    industry: "Sound Equipment Rental",
+    category: "Web Development",
+    services: ["SEO", "Web Development", "Branding"],
+    result: "A eyecatching and functional website for a sound equipment rental business, designed to showcase services, equipment and booking options.",
+    accent: "from-primary/45 to-accent/25",
+    image: sireSoundsDJ,
+    description:
+      "We designed and developed the SireSounds Mobile DJ website as a fully custom-coded, modern and responsive web experience for a professional DJ and event entertainment business. The entire website was built from scratch using React.js and TypeScript, without relying on WordPress or a pre-built CMS theme. Our work included planning the website structure and user journey, creating a visually engaging interface, developing responsive layouts for desktop, tablet and mobile, building dedicated service and equipment sections, implementing event and wedding-focused content, creating reusable UI components, adding interactive elements and smooth user interactions, and developing clear calls to action for inquiries and bookings. We also focused on presenting services, equipment, testimonials, galleries and business information in an organized way while maintaining a consistent visual system throughout the website. The project was managed through GitHub for version control, code management and deployment workflow, allowing the website to be continuously updated and maintained through a structured development process. Overall, the project focused on custom React development, TypeScript, responsive UI/UX, component-based architecture, performance, interactive design and conversion-focused website development.",
+    link: "https://siresoundsdj.com/",
+  },
+
+  {
+    title: "We Haul Raleigh",
+    slug: "we-haul-raleigh",
+    industry: "Junk Removal & Moving Services",
+    category: "Web Development",
+    services: ["SEO", "Web Development", "Branding"],
+    result: "A modern business website with clean ui/ux and responsive design.",
+    accent: "from-primary/45 to-accent/25",
+    image: weHaulRaleigh,
+    description:
+      "We developed the We Haul Raleigh website as a professional, service-focused digital platform for a local junk removal, delivery and moving labor business in Raleigh, North Carolina. Our work focused on creating a clear and conversion-oriented website structure that makes it easy for visitors to understand the company's services and request a quote. We organized the website around junk removal, furniture delivery, moving labor, property cleanouts and delivery services, while also developing dedicated sections for service information, customer testimonials, client types, the work process and strong quote/contact calls to action. The website was designed with a responsive user interface for desktop, tablet and mobile devices, with emphasis on clear navigation, service presentation, trust-building content and lead generation. We also integrated the client's online quote/request workflow, contact and call-to-action elements, and structured the content to support local search visibility in Raleigh and surrounding Triangle areas. Our development process included planning the information architecture, designing the UI/UX, developing responsive components, optimizing content placement and conversion paths, integrating external booking/quote functionality, testing the user experience across devices, and deploying and managing the project through our development workflow. Overall, our work focused on custom website development, responsive UI/UX, local SEO structure, service presentation, lead generation and conversion-focused design for a local service business. The live website confirms the service structure, quote workflow, testimonials, work process and Raleigh-focused business content.",
+    link: "https://wehaulraleigh.com/",
+  },
+
+  {
+    title: "JCSU 100 Club",
+    slug: "jcsu-100-club",
+    industry: "Nonprofit & University Booster Club",
+    category: "Web Development",
+    services: ["Web Development", "Branding"],
+    result: "A modern business website with clean ui/ux and responsive design.",
+    accent: "from-primary/45 to-accent/25",
+    image: jcsu100Club,
+    description:
+      "We designed and developed the JCSU 100 Club website as a professional nonprofit and university booster-club platform using WordPress and Elementor, with a strong focus on membership, fundraising, events and community engagement. Our work included designing and building the website structure, creating responsive Elementor layouts, setting up membership and interest forms, implementing event management and event listing functionality, configuring booking/registration workflows, and integrating donation and payment options to support the organization’s fundraising activities. We also organized membership levels and contribution information, created dedicated sections for the organization’s history, leadership, governance, Hall of Fame, photo gallery and athletic-support initiatives, and added clear calls to action for joining, donating and participating in events. The website includes membership payment information and donation options such as PayPal and Cash App, while its events section provides searchable event listings and calendar views. jcsu100club.com Overall, our work focused on WordPress development, Elementor design, form setup, event management, booking/registration, donation integration, membership functionality, responsive UI/UX and nonprofit-focused conversion optimization to create an easy-to-manage digital platform for the JCSU 100 Club. View JCSU 100 Club",
+    link: "https://jcsu100club.com/",
+  },
+
+  {
+    title: "CFE Accounting",
+    slug: "cfe-accounting",
+    industry: "Tax & Financial Services",
+    category: "Web Development",
+    services: ["Web Development", "Branding", "SEO"],
+    result: "A modern business website with clean ui/ux and responsive design.",
+    accent: "from-primary/45 to-accent/25",
+    image: cfeAccounting,
+    description:
+      "We designed and developed the CFE Accounting website as a fully custom-coded, modern digital platform for a professional tax and financial services company. The website was built from scratch using React.js, Next.js and TypeScript, without relying on WordPress, pre-built themes or template-based website builders. Our work included planning the complete website architecture and user journey, designing a clean and professional financial-services interface, developing reusable React components, creating responsive layouts for desktop, tablet and mobile, and building dedicated sections for services, companies, specialties, why choose us, testimonials, latest news, client resources and contact/quote requests. We also implemented dynamic portfolio/content routing, SEO-friendly page structures, metadata, responsive navigation, interactive UI elements, forms, calls to action and reusable design components to maintain consistency throughout the website. The project was managed through GitHub for source-code management and version control, followed by deployment and production setup to make the website live and accessible. Overall, our work focused on fully custom React/Next.js development, TypeScript, responsive UI/UX, component-based architecture, SEO structure, performance, dynamic routing, lead generation and professional financial-services website development.",
+    link: "https://www.cfeaccounting.com/",
+  },
+
+  {
+    title: "4C Integrated Health",
+    slug: "4c-integrated-health",
+    industry: "Healthcare",
+    category: "Web Development",
+    services: ["Web Development", "Branding", "SEO"],
+    result: "A modern healthcare website with SEO friendly structure and responsive design.",
+    accent: "from-primary/45 to-accent/25",
+    image: IntegratedHealth,
+    description:
+      "We designed and developed the 4C Integrated Health website as a professional healthcare platform using WordPress and Elementor, with a strong focus on trust, accessibility, user experience and online growth. Our work included creating a complete brand-aligned visual identity, designing and developing responsive Elementor layouts, organizing the website into clear healthcare service categories, and creating dedicated pages for services such as primary care, behavioral health, home and community care, weight management, telehealth and wellness programs. 4C INTEGRATED HEALTH We also implemented and configured contact and inquiry forms, structured clear calls to action, improved the navigation and user journey, and created a consistent visual system across the website. From an SEO perspective, we worked on on-page SEO, service-page structure, keyword-focused content organization, headings, metadata and search-friendly website architecture to improve the site's organic visibility. We also worked on branding and website speed optimization, focusing on a faster, cleaner and more user-friendly experience across desktop, tablet and mobile devices. The project was developed with an emphasis on scalable content management, allowing the client to easily manage and update healthcare information through WordPress and Elementor. Overall, our work focused on WordPress development, Elementor design, branding, responsive UI/UX, form integration, SEO, speed optimization and organic growth, creating a professional healthcare website designed to build credibility and generate patient inquiries.",
+    link: "https://4cintegratedhealth.com/",
+  },
+
+  {
+    title: "Cable Guy",
+    slug: "cableguy",
+    industry: "Electrical Services",
+    category: "Web Development",
+    services: ["Web Development", "Branding", "SEO"],
+    result: "A modern electrical services website with SEO friendly structure and responsive design.",
+    accent: "from-primary/45 to-accent/25",
+    image: cableGuy,
+    description:
+      "We designed and developed the Cable Guy Com website as a professional, service-focused digital platform for a Dallas-based low-voltage cabling and communication company. Our work focused on creating a modern and trustworthy online presence while making a wide range of technical services easy for customers to understand and navigate. We structured the website around Cat6 Network Cabling, Low Voltage Cabling, Home Theater Installation, Video Camera Surveillance, Landline Phone Service and Telephone Technician services, with dedicated service pages and location-focused content. Cable Guy Com We developed a complete user journey including an engaging hero section, company introduction, service cards, Why Choose Us section, business statistics, pricing/package presentation, step-by-step installation process, professional team section, project showcase, testimonials, FAQs and multiple contact/booking calls to action. Cable Guy Com We also implemented a quote/inquiry form, service-focused navigation, responsive layouts and clear conversion paths so visitors can quickly understand the services and contact the company. The website was structured with SEO-friendly service and location content targeting Dallas and nearby areas, helping individual services such as low-voltage cabling and telephone technician services have their own dedicated search-focused pages. Cable Guy Com The project was developed, customized and managed by Rok Online, with our agency credited in the website footer as the development partner. Cable Guy Com Overall, our work focused on custom website design and development, responsive UI/UX, service-page architecture, local SEO structure, lead generation, quote/inquiry functionality, conversion optimization, project showcasing and ongoing website management.",
+    link: "https://cableguycom.com/",
+  },
+
+  {
+    title: "VPD Contracting",
+    slug: "vpdcontracting",
+    industry: "Residential Remodeling & Contracting",
+    category: "Web Development",
+    services: ["Web Development", "Branding", "SEO"],
+    result: "A modern residential remodeling and contracting website with SEO friendly structure and responsive design.",
+    accent: "from-primary/45 to-accent/25",
+    image: vpdContracting,
+    description:
+      "We designed and developed the VPD Contracting website as a professional, lead-generation-focused platform for a residential remodeling and contracting company serving Stormville, Putnam County, Westchester County and surrounding areas in New York. Our work was completed using WordPress and Elementor, with a strong focus on creating a trustworthy online presence and generating qualified leads for the business. We structured the website around key services including kitchen remodeling, bathroom remodeling, home renovations, home additions, basement finishing and interior/exterior remodeling, with dedicated service and location-focused pages to strengthen the site's organic search visibility. VPD Contracting We developed clear Free Quote and consultation CTAs, contact and inquiry pathways, service sections, testimonials, FAQs, project/gallery sections, trust signals and step-by-step process sections to guide potential customers from discovering the service to requesting an estimate. VPD Contracting On the SEO side, we worked on service-page optimization, local SEO structure, location targeting, keyword-focused content organization, internal page structure and search-friendly content to help attract homeowners actively looking for remodeling services in the target service areas. Our lead-generation strategy focused on client hunting and qualified lead acquisition, using targeted service and location pages, strong conversion points, quote forms and prominent call/contact options. We also worked on the website's overall user experience, responsive design and performance to ensure visitors could easily explore services and contact the company from desktop, tablet or mobile devices. Overall, our work focused on WordPress development, Elementor design, SEO, local client acquisition, lead generation, responsive UI/UX, service-page architecture and conversion optimization, creating a scalable digital platform designed to turn local search traffic into remodeling inquiries.",
+    link: "https://vpdcontracting.com/",
+  },
+
+  {
+    title: "B&F Junk Removal",
+    slug: "bnfjunkremoval",
+    industry: "Junk Removal & Dumpster Rental",
+    category: "Web Development",
+    services: ["Web Development", "Branding", "SEO"],
+    result: "A modern business website with SEO friendly structure and responsive design.",
+    accent: "from-primary/45 to-accent/25",
+    image: bnfJunkRemoval,
+    description:
+      "We designed and developed the B&F Junk Removal website as a professional, conversion-focused local service website using WordPress and Elementor, with the primary goal of generating more junk removal and dumpster rental leads across Portsmouth and the wider Hampton Roads area. Our work included designing and building responsive Elementor layouts, structuring the website around individual junk removal services and service areas, creating clear Free Quote and Call Now conversion points, and setting up contact/quote forms to make it easy for potential customers to request service. We also integrated and displayed Google customer reviews throughout the website to strengthen trust and credibility, including the company's 220+ five-star review messaging and individual customer testimonials. B&F Junk Removal We developed the service and location content structure, organized pricing information, FAQs, the junk removal process and trust-building sections, and optimized the overall website experience for local customers searching for services such as furniture removal, appliance removal, house cleanouts, commercial cleanouts, construction debris removal and dumpster rental. B&F Junk Removal We also worked on website speed optimization, improving the site's performance and creating a cleaner, faster experience across desktop, tablet and mobile devices. Overall, our work focused on WordPress development, Elementor design, responsive UI/UX, form integration, Google review integration, service-page development, local SEO structure, speed optimization, lead generation and conversion optimization.",
+    link: "https://bnfjunkremoval.com/",
+  },
+
+  {
+    title: "A&H Appliance Repair & Install",
+    slug: "ahappliance-repair",
+    industry: "Appliance Repair & Installation",
+    category: "Web Development",
+    services: ["Web Development", "Branding", "SEO"],
+    result: "A modern business website with SEO friendly structure and responsive design.",
+    accent: "from-primary/45 to-accent/25",
+    image: ahApplianceRepair,
+    description:
+      "We designed and developed the A&H Appliance Repair & Install website as a professional local-service website for an appliance installation and repair company serving Austin, Texas. The website was built using WordPress and Elementor, with our work focused on creating a clean, trustworthy and easy-to-navigate experience that helps customers quickly understand the company's services and request assistance. We structured the website around key appliance services including washing machine, refrigerator, microwave, filter cleaning and electric stove repair, while also presenting the company's broader appliance installation and repair capabilities. A & H Repair Services We created clear service-focused sections, strong Call for Service / Service Booking calls to action, an informative company introduction, special-offer messaging, testimonials, partner/company information, FAQ and project navigation, and contact information to support customer inquiries. A & H Repair Services The website was also designed with a responsive layout and a clear local-service user journey so visitors can quickly move from understanding the service to contacting the business. Overall, our work focused on WordPress development, Elementor design, responsive UI/UX, service-page structure, conversion-focused CTA placement, trust-building content and local business website development.",
+    link: "https://ahrepairservices.com",
+  },
+
+  {
+    title: "Arosa Within",
+    slug: "arosawithin",
+    industry: "Wellness & Retreats",
+    category: "Web Development",
+    services: ["Web Development", "Branding", "SEO"],
+    result: "A modern business website with SEO friendly structure and responsive design.",
+    accent: "from-primary/45 to-accent/25",
+    image: arosaWithin,
+    description:
+      "We designed and developed the Arosa Within website as a premium, modern digital experience for a luxury longevity retreat based in Arosa, Switzerland, with a strong focus on wellness, lifestyle, retreat experiences and corporate health. The website was built using Wix, with our work focused on creating a sophisticated UI/UX design that reflects the premium positioning of the brand while keeping the experience clean, intuitive and easy to navigate. We developed a strong visual content structure around the BEST Retreat concept, including Movement, Nutrition, Sleep and Deep Recovery, along with dedicated sections for the retreat program, BEST Assessment, individual programs, group retreats, corporate health, the team, the Arosa experience and the overall brand methodology. Arosa Within We carefully organized the user journey so visitors can move naturally from understanding the BEST concept to exploring the program and ultimately taking action through “Start a Conversation,” “Register Your Interest” and corporate retreat inquiries. Arosa Within Our development process also included creating a modern responsive interface, optimizing the website for speed and performance, improving content hierarchy and navigation, implementing SEO-friendly page structure and content organization, optimizing calls to action and ensuring a consistent premium visual identity across desktop, tablet and mobile. The website was structured to communicate the brand's positioning clearly while making a complex wellness/retreat offering feel simple, elegant and engaging. Overall, our work focused on Wix development, premium UI/UX design, modern website design, responsive development, speed optimization, SEO, content architecture, conversion-focused UX and brand presentation.",
+    link: "https://arosawithin.ch/",
+  },
+
+  {
+    title: "Effortless Mind Meditation",
+    slug: "effortlessmindmeditation",
+    industry: "Meditation & Wellness",
+    category: "Web Development",
+    services: ["Web Development", "Subscription", "SEO"],
+    result: "Created an easy-to-manage online platform for meditation education, paid memberships, digital content and personalized meditation services.",
+    accent: "from-primary/45 to-accent/25",
+    image: effortlessMindMeditation,
+    description:
+      "We designed and developed the Effortless Mind Meditation website as a complete online meditation and membership platform using WordPress and Elementor, with a strong focus on content delivery, subscriptions, course access and user engagement. Our work included designing a modern and user-friendly interface, building responsive Elementor layouts, organizing meditation programs and courses into clear categories, and creating dedicated pages for beginner and advanced meditation programs. The website also required a more advanced content structure than a standard business website, so we implemented membership and subscription-based content, allowing users to access different levels of meditation instruction and guided content based on their membership. The platform includes multiple membership levels such as Shanti, Ananda, Jñāna and Siddha, with different content and course access depending on the selected level. Effortless Mind Meditation We also worked on booking functionality for private meditation instruction and retreats, along with contact and inquiry forms, course registration, membership sign-up flows and payment/subscription pathways. The website includes online courses, prerecorded video/audio meditation content, guided sessions, live Zoom sessions and advanced course materials, requiring a structured user experience for both free and paid content. Effortless Mind Meditation Overall, our work focused on WordPress development, Elementor design, membership/subscription functionality, protected content, course structure, booking, forms, payment integration, responsive UI/UX and content management, creating a scalable platform where users can discover meditation programs, subscribe to memberships, access premium educational content and book personalized services.",
+    link: "https://effortlessmindmeditation.com/",
+  },
+
+  {
+    title: "Agape Cleaning Services",
+    slug: "agapecleaningservices",
+    industry: "Cleaning Services",
+    category: "Web Development",
+    services: ["Web Development", "Subscription", "SEO"],
+    result: "Improved local search visibility, increase website speed and generate more qualified cleaning-service leads.",
+    accent: "from-primary/45 to-accent/25",
+    image: agapeCleaningServices,
+    description:
+      "We designed and developed the Agape Cleaning Services website as a professional, modern and conversion-focused cleaning service platform using WordPress and Elementor, with a strong focus on SEO, website speed and local lead generation. Our work included creating a clean and trustworthy visual interface, developing responsive Elementor layouts, organizing the website around residential and commercial cleaning services, and building dedicated service pages for areas such as house cleaning, office cleaning, deep cleaning, standard cleaning, window cleaning, kitchen cleaning, vacation rental cleaning, janitorial services, post-construction cleaning and move-in/move-out cleaning. Agape Cleaning Services We also structured clear Free Estimate and booking calls to action, contact and quote forms, service-process sections, trust elements and Google review integration to make it easier for potential customers to take action. The homepage currently includes a quote form with fields for name, phone, email, service, address, preferred date and additional details, supporting the site's lead-generation objective. Agape Cleaning Services On the SEO side, our work focused on local SEO, service-page optimization, location-focused content, keyword targeting, internal website structure, headings and search-friendly content architecture to strengthen visibility for cleaning-related searches in Palm Desert and the surrounding Coachella Valley. We also worked on website speed optimization and responsive performance, ensuring the site provides a cleaner and faster experience across desktop, tablet and mobile devices. Overall, our work focused on WordPress development, Elementor design, local SEO, service-page development, speed optimization, responsive UI/UX, lead generation, conversion optimization and ongoing website growth.",
+    link: "https://agapecleaningservices.us",
+  },
+
+  {
+    title: "Nissi Cleaning Service",
+    slug: "nissicleaningservice",
+    industry: "Cleaning Services",
+    category: "Web Development",
+    services: ["Web Development", "Subscription", "SEO"],
+    result: "Created a professional online presence and make it easy for local businesses to explore services and request a quote.",
+    accent: "from-primary/45 to-accent/25",
+    image: nissiCleaningService,
+    description:
+      "We designed and developed the Nissi Cleaning Service website as a professional, service-focused cleaning business website using WordPress and Elementor. Our work included creating a clean and trustworthy visual interface, developing responsive Elementor layouts, and structuring the website around the company's commercial cleaning services in Bolingbrook, Illinois. We organized the website into clear service sections and dedicated pages for services such as medical clinic cleaning, dental office cleaning, gym cleaning, church cleaning, school cleaning, daycare cleaning, warehouse cleaning, apartment common-area cleaning and office cleaning, making it easier for potential customers to find the service relevant to their business. Nissi Cleaning Service We also developed supporting sections such as Why Choose Us, Our Process, pricing information, FAQs, contact/quote sections and strong calls to action, creating a clear journey from discovering a service to requesting a free quote. Nissi Cleaning Service The website was built with a responsive approach so the content and layouts work effectively across desktop, tablet and mobile devices, while Elementor provides the client with an easy-to-manage visual editing experience. Overall, our work focused on WordPress development, Elementor design, responsive UI/UX, service-page architecture, professional content presentation and conversion-focused website design for a local commercial cleaning company.",
+    link: "https://nissicleaningservice.com/",
   },
   
 
