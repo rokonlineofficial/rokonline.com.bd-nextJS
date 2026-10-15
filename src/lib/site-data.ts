@@ -635,59 +635,90 @@ export const techGroups = [
 export const portfolio = [
   {
     title: "Easy Being Green",
+    slug: "easy-being-green",
     industry: "Renewable Energy",
     category: "Website Development",
     services: ["Web Design", "WordPress", "Development"],
     result: "Conversion-focused solar solutions website",
     accent: "from-primary/40 to-accent/30",
     image: easyBeingGreen,
+    description:
+      "Easy Being Green is an Australian renewable energy and energy-efficiency company website developed as a professional, service-focused corporate platform for solar, battery storage, commercial LED lighting and energy-efficiency solutions. The website is built with WordPress as the CMS, using BeTheme as the underlying WordPress theme and Elementor as the page builder for creating and managing the visual layouts. The front end also uses PHP, jQuery, jQuery UI and jQuery Migrate, while Google Site Kit and HubSpot Analytics support analytics and marketing tracking, and Google reCAPTCHA helps protect forms from spam. The website features responsive layouts for desktop, tablet and mobile, dedicated service pages, commercial solar project showcases, educational blog content, customer-focused information, consultation and quote forms, contact/phone CTAs, testimonials, FAQs and strong conversion-focused sections. The overall website structure is designed to clearly explain complex renewable-energy services, establish trust through company experience and completed projects, and guide visitors toward requesting a consultation or quote.",
+    link: "https://easybeinggreen.com.au/",
   },
   {
     title: "Robin Dev Hospitality",
+    slug: "robin-dev-hospitality",
     industry: "Hospitality",
     category: "Website Development",
     services: ["WordPress", "Figma Design"],
     result: "Modern Website Building",
     accent: "from-accent/35 to-primary/30",
-    image: robindev ,
+    image: robindev,
+    description:
+      "A modern hospitality website designed with a clean visual structure, responsive layouts and a user-friendly experience.",
+    link: "",
   },
   {
     title: "Maid It Cleaning Service",
+    slug: "maid-it-cleaning-service",
     industry: "Cleaning Service",
     category: "Web Development",
     services: ["WordPress", "Ranking"],
-    result: "BUsiness Website Development",
+    result: "Business Website Development",
     accent: "from-gold/35 to-primary/30",
     image: maidit,
+    description:
+      "A professional cleaning service website designed to present services clearly and create a strong, conversion-focused online presence.",
+    link: "",
   },
+
   {
     title: "Tree Removal & Pruning Service",
+    slug: "tree-removal-pruning-service",
     industry: "Tree Service",
     category: "Web Development",
     services: ["WordPress", "Theme Customize"],
     result: "Build modern business website",
     accent: "from-primary/35 to-gold/25",
     image: greenleaf,
+    description:
+      "A modern service-business website designed to showcase tree removal and pruning services with a clear and responsive user experience.",
+    link: "",
   },
+
   {
     title: "Junk Robbers Cleaning",
+    slug: "junk-robbers-cleaning",
     industry: "Cleaning Service",
     category: "SEO",
     services: ["Branding", "SEO", "Web Development"],
     result: "Boost organic clients",
     accent: "from-accent/40 to-gold/25",
     image: junkRobbers,
+    description:
+      "A digital growth project combining website development, SEO and branding to strengthen local visibility and customer acquisition.",
+    link: "",
   },
+
   {
     title: "GLORIA CLEANING",
+    slug: "gloria-cleaning",
     industry: "Cleaning Service",
     category: "Paid Ads",
     services: ["SEO", "Web Development", "Branding"],
     result: "+168% organic traffic YoY",
     accent: "from-primary/45 to-accent/25",
     image: gloriaCleaning,
+    description:
+      "A digital marketing and website development project focused on improving organic visibility, branding and online customer acquisition.",
+    link: "",
   },
+  
+
 ];
+
+
 
 export const portfolioCategories = [
   "All",

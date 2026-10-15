@@ -6,6 +6,7 @@ import { ArrowUpRight } from "lucide-react";
 import { gsap } from "@/lib/gsap";
 import { SectionHeading } from "./SectionHeading";
 import { portfolio, portfolioCategories } from "@/lib/site-data";
+import Link from "next/link";
 
 export function Portfolio({ withFilters = true }: { withFilters?: boolean }) {
   const [active, setActive] = useState<string>("All");
@@ -70,7 +71,7 @@ export function Portfolio({ withFilters = true }: { withFilters?: boolean }) {
               key={p.title}
               className="case-card group relative overflow-hidden rounded-3xl border border-border bg-surface"
             >
-              <div className="relative aspect-[4/3] overflow-hidden">
+              <Link href={`/portfolio/${p.slug}`} className="relative block aspect-[4/3] overflow-hidden">
                 <Image
                   src={p.image}
                   alt={`${p.title} project showcase`}
@@ -89,12 +90,16 @@ export function Portfolio({ withFilters = true }: { withFilters?: boolean }) {
                     <ArrowUpRight className="size-4" />
                   </span>
                 </div>
-              </div>
+              </Link>
               <div className="p-6">
                 <p className="text-xs uppercase tracking-widest text-muted-foreground">
                   {p.industry}
                 </p>
-                <h3 className="mt-1.5 font-display text-xl font-bold">{p.title}</h3>
+                <h3 className="mt-1.5 font-display text-xl font-bold">
+                  <Link href={`/portfolio/${p.slug}`} className="transition-colors hover:text-accent">
+                    {p.title}
+                  </Link>
+                </h3>
                 <div className="mt-3 flex flex-wrap gap-1.5">
                   {p.services.map((s) => (
                     <span
