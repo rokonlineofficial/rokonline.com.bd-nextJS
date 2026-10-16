@@ -24,7 +24,7 @@ export default function ServicesIndex() {
         title="Full-Service Digital Growth"
         subtitle="From high-converting websites to campaigns that scale, every service is built around measurable business outcomes."
       />
-      <section className="section-pad pt-0">
+      <section className="section-pad pt-10 lg:pt-16">
         <Stagger className="mx-auto grid max-w-7xl gap-5 px-5 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((s) => (
             <Link

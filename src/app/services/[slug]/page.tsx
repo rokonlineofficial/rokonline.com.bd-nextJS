@@ -38,7 +38,7 @@ export default async function ServiceDetail({ params }: { params: Promise<{ slug
   return (
     <>
       <PageHero eyebrow={service.category} title={service.title} subtitle={service.short} />
-      <section className="section-pad pt-0">
+      <section className="section-pad pt-10 lg:pt-16">
         <div className="mx-auto grid max-w-7xl gap-8 px-5 lg:grid-cols-[1.4fr_1fr]">
           <Reveal className="glass rounded-3xl p-8 sm:p-10">
             <h2 className="font-display text-2xl font-extrabold">What&apos;s included</h2>

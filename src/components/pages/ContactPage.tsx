@@ -29,7 +29,7 @@ export function ContactPage() {
         subtitle="Tell us about your business and goals. You'll hear back from a senior strategist — not a sales bot — within one business day."
       />
 
-      <section className="section-pad pt-0">
+      <section className="section-pad pt-10 lg:pt-16">
         <div className="mx-auto grid max-w-7xl gap-8 px-5 lg:grid-cols-[1.3fr_1fr]">
           <Reveal className="glass rounded-3xl p-7 sm:p-10">
             <h2 className="font-display text-2xl font-extrabold">Request a free consultation</h2>

@@ -2,17 +2,24 @@
 
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowRight, ArrowUpRight } from "lucide-react";
 import { gsap } from "@/lib/gsap";
 import { SectionHeading } from "./SectionHeading";
 import { portfolio, portfolioCategories } from "@/lib/site-data";
 import Link from "next/link";
 
-export function Portfolio({ withFilters = true }: { withFilters?: boolean }) {
+export function Portfolio({
+          withFilters = true,
+          limit,
+        }: {
+          withFilters?: boolean;
+          limit?: number;
+        }) {
   const [active, setActive] = useState<string>("All");
   const gridRef = useRef<HTMLDivElement>(null);
 
-  const items = active === "All" ? portfolio : portfolio.filter((p) => p.category === active);
+  const filtered = active === "All" ? portfolio : portfolio.filter((p) => p.category === active);
+  const items = limit ? filtered.slice(0, limit) : filtered;
 
   useEffect(() => {
     const el = gridRef.current;
@@ -115,6 +122,17 @@ export function Portfolio({ withFilters = true }: { withFilters?: boolean }) {
             </article>
           ))}
         </div>
+                {limit && (
+          <div className="mt-12 text-center">
+            <Link
+              href="/portfolio"
+              className="group inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-primary to-accent px-8 py-4 text-sm font-bold text-primary-foreground shadow-[var(--shadow-glow)]"
+            >
+              See All Portfolio
+              <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
+            </Link>
+          </div>
+        )}
       </div>
     </section>
   );

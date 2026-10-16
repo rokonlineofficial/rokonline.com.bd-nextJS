@@ -52,7 +52,7 @@ export default function Home() {
       <About />
       <Team limit={4} />
       <TechStack />
-      <Portfolio />
+      <Portfolio limit={6} withFilters={false} />
       <Process />
       <Testimonials />
       <CTA />
