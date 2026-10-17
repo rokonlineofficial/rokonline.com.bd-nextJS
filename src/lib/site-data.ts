@@ -8,6 +8,8 @@ import jashimPhoto from "@/assets/Josim-Uddin.webp";
 import mehediPhoto from "@/assets/Mahadi-hasan.webp";
 import badshaPhoto from "@/assets/Abdur-Rahman-Badsha.webp";
 import masumPhoto from "@/assets/Masum-Billah.webp";
+
+import sellmoraWebsite from "@/assets/sellmoraWebsite.png";
 import easyBeingGreen from "@/assets/easy-being-green.jpg";
 import robindev from "@/assets/robindev.png";
 import maidit from "@/assets/maid-it.png";
@@ -649,6 +651,22 @@ export const techGroups = [
 
 export const portfolio = [
   {
+    title: "Sellmora",
+    slug: "sellmora",
+    industry: "Amazon FBA",
+    category: "Branding",
+    services: ["Development", "SEO", "Branding"],
+    result: "A premium, high-performance website with a strong brand presence, smooth user experience, responsive design, SEO-ready structure, and a conversion-focused layout built to support Sellmora’s growth.",
+    accent: "from-primary/40 to-accent/30",
+    image: sellmoraWebsite,
+    description:
+      "We designed, developed, and manage the Sellmora website as a modern, conversion-focused digital platform for an Amazon growth agency. The project was built with a strong focus on premium UI/UX design, custom website development, responsive functionality, smooth animations, performance, SEO, and brand presentation. We created the website structure and visual experience from the ground up, using full custom code rather than depending on a page builder, giving us greater control over the design, functionality, responsiveness, and overall performance. The website features a carefully designed homepage with a strong hero section, clear calls to action, performance statistics, service presentation, process section, case studies, client testimonials, brand showcase, founder section, articles, FAQ, booking functionality, and a detailed footer structure. The Sellmora website also presents its Amazon-focused positioning through sections covering global expansion, catalog management, brand management, PPC management, and graphic design, while maintaining a consistent dark-green, gold, and white visual identity throughout the experience.     df0584ca-9ece-47ae-9cdf-7602b34… From the development side, we implemented the website using fully custom frontend development, ensuring that layouts work smoothly across desktop, tablet, and mobile devices. We paid particular attention to spacing, typography, card layouts, navigation, CTA elements, responsive breakpoints, interactive components, and smooth visual transitions to create a polished experience. The website also includes interactive sections such as service cards, case-study presentation, testimonial areas, FAQ interactions, article sections, and an appointment/meeting booking experience. The project incorporates performance-focused development and speed optimization to provide a fast and smooth browsing experience, while the technical structure was prepared with SEO optimization in mind, including search-friendly page structure, content hierarchy, metadata, and optimized user experience. We also worked on the branding and visual consistency of Sellmora, maintaining its recognizable green-and-gold identity across the website, buttons, cards, headings, navigation, CTAs, and supporting sections. The website's case studies, client results, testimonials, articles, and service information were organized to build credibility and guide visitors toward actions such as requesting a free audit or scheduling a call.     df0584ca-9ece-47ae-9cdf-7602b34… Overall, the Sellmora project represents our work in custom UI/UX design, full custom-code web development, responsive website development, smooth animations, branding, SEO optimization, speed boosting, conversion-focused design, interactive functionality, booking integration, content structure, and ongoing website management—creating a professional, high-performance website that Sellmora can use as its primary online presence.",
+    link: "https://thesellmora.com/",
+  },
+
+
+
+  {
     title: "Easy Being Green",
     slug: "easy-being-green",
     industry: "Renewable Energy",
@@ -666,26 +684,26 @@ export const portfolio = [
     slug: "robin-dev-hospitality",
     industry: "Hospitality",
     category: "Website Development",
-    services: ["WordPress", "Figma Design"],
-    result: "Modern Website Building",
+    services: ["WIX", "Branding", "Web Design"],
+    result: "A premium personal-brand website with a strong visual identity, engaging user experience, clear service positioning, and a professional platform designed to generate strategy-session inquiries and strengthen Robin Deb’s authority in the hospitality industry.",
     accent: "from-accent/35 to-primary/30",
     image: robindev,
     description:
-      "A modern hospitality website designed with a clean visual structure, responsive layouts and a user-friendly experience.",
-    link: "",
+      "We designed and developed the Robin Deb website as a premium personal-brand and hospitality consulting platform, with a strong focus on modern UI/UX, website development, branding, visual storytelling, and conversion-focused structure. Our work included creating a distinctive visual identity for Robin’s hospitality and longevity consulting brand, designing a clear content hierarchy, and developing interactive sections that present his expertise, services, leadership experience, Longevity Hotel Framework™, speaking topics, and target audiences in a professional way. The website structure guides visitors from Robin’s vision and hospitality opportunity through his services, framework, experience, and finally toward booking a strategy conversation. robindeb.com We also focused on responsive development, polished typography, spacing, visual transitions, strong calls to action, and an engaging user experience to give the site a high-end consultancy feel. Overall, our work combined UI/UX Design, Web Development, Branding, Responsive Design, Content Structure, Interactive Experience, and Conversion Optimization to create a modern digital presence that positions Robin as a hospitality executive, consultant, speaker, and creator of the Longevity Hotel Framework™.",
+    link: "http://robindeb.com/",
   },
   {
     title: "Maid It Cleaning Service",
     slug: "maid-it-cleaning-service",
     industry: "Cleaning Service",
     category: "Web Development",
-    services: ["WordPress", "Ranking"],
-    result: "Business Website Development",
+    services: ["WordPress", "Paid Ads", "SEO"],
+    result: "A professional, conversion-focused cleaning website with a customized quote system, detailed service structure, responsive user experience, clear customer journey, and a stronger online presence designed to turn visitors into cleaning-service inquiries.",
     accent: "from-gold/35 to-primary/30",
     image: maidit,
     description:
-      "A professional cleaning service website designed to present services clearly and create a strong, conversion-focused online presence.",
-    link: "",
+      "We designed and developed the Maid It website as a professional, conversion-focused cleaning service platform, with a strong emphasis on modern UI/UX, responsive web design, service presentation, quote functionality, and customer convenience. Our work focused on creating a clean and trustworthy digital experience that clearly presents Maid It’s residential cleaning services while making it easy for visitors to understand their options and request a customized estimate. The website includes a detailed “Calculate Your Own Quote” experience where users can provide information such as bedrooms, bathrooms, kitchens, home size, cleaning extras, address, preferred date and time, and contact information before submitting their request. maidit.net We also structured dedicated service information for basic house cleaning, move-in/move-out cleaning, short-term rental cleaning, and rental turnover cleaning, with detailed service inclusions. maidit.net In addition, we organized important customer-support content including FAQs, booking information, service limitations, terms and conditions, and contact details, creating a more complete and trustworthy user journey. maidit.net The website was built with a responsive approach to provide a smooth experience across desktop, tablet, and mobile devices, while the overall design and content structure were focused on generating quote requests and making the booking process easier for customers.",
+    link: "https://maidit.net/",
   },
 
   {
@@ -693,13 +711,13 @@ export const portfolio = [
     slug: "tree-removal-pruning-service",
     industry: "Tree Service",
     category: "Web Development",
-    services: ["WordPress", "Theme Customize"],
-    result: "Build modern business website",
+    services: ["WordPress", "Theme Customize", "branding"],
+    result: "A professional, locally focused tree-service website with clear service presentation, strong conversion paths, responsive design, and an SEO-friendly structure built to help generate more local service inquiries.",
     accent: "from-primary/35 to-gold/25",
     image: greenleaf,
     description:
-      "A modern service-business website designed to showcase tree removal and pruning services with a clear and responsive user experience.",
-    link: "",
+      "We designed and developed the Green Leaf Tree Experts website as a professional, service-focused digital platform for a local tree care company serving Lafayette, Broussard, Youngsville, Abbeville, New Iberia, and surrounding areas. Our work focused on creating a clean, trustworthy and conversion-oriented website that makes it easy for customers to understand the company's tree care services and request professional assistance. The website was structured around key services including tree removal, tree pruning, debris pickup and hauling, container-grown trees, arborist consulting and emergency tree services, with dedicated service-focused content to improve both usability and local search visibility. greenleaftreeexperts.com We also created clear calls to action such as Make an Appointment, Call Us and Free Estimate, along with service information, business hours and location details to guide visitors toward contacting the company. greenleaftreeexperts.com The website was designed with a strong emphasis on responsive UI/UX, clear service presentation, local customer acquisition and conversion-focused page structure, helping potential customers quickly find the right tree service and take action. Overall, our work focused on website design, web development, responsive design, service-page structure, local SEO-friendly content, conversion optimization and lead-generation strategy, creating a professional online presence for Green Leaf Tree Experts.",
+    link: "https://greenleaftreeexperts.com/",
   },
 
   {
@@ -707,13 +725,13 @@ export const portfolio = [
     slug: "junk-robbers-cleaning",
     industry: "Cleaning Service",
     category: "SEO",
-    services: ["Branding", "SEO", "Web Development"],
-    result: "Boost organic clients",
+    services: ["Paid Ads", "SEO", "Web Development"],
+    result: "A professional, high-converting local-service website with an advanced quote system, strong Google review presence, SEO-focused service architecture, and a smoother path from local search visitor to qualified junk removal lead.",
     accent: "from-accent/40 to-gold/25",
     image: junkRobbers,
     description:
-      "A digital growth project combining website development, SEO and branding to strengthen local visibility and customer acquisition.",
-    link: "",
+      "We designed and developed the Junk Robbers website as a modern, conversion-focused local service platform for a Chicago-based junk removal company. Our work focused on creating a professional and trustworthy online presence while making it extremely easy for customers to request junk removal services. We built a clear service structure covering junk removal, furniture removal, appliance removal, light demolition, construction debris removal, yard debris removal, cleanout services and bed bug junk removal, along with dedicated service-area content for Chicago neighborhoods and surrounding suburbs. Junk Robbers Inc. A major part of our work was developing a multi-step online quote system, allowing visitors to enter their ZIP code, select the items they need removed, upload photos, provide property-access details, choose their preferred timing, and submit their contact information for a quote. Junk Robbers Inc. We also integrated and presented Google customer reviews and trust signals, including the company's 5-star rating, hundreds of reviews, licensed-and-insured messaging, and customer testimonials to strengthen credibility and conversions. Junk Robbers Inc. The website was structured with clear CTAs, service pages, location pages, FAQs, process sections, business information and mobile-friendly layouts, while the content architecture supports local SEO and organic search visibility across Chicago and its surrounding service areas. Overall, our work focused on UI/UX Design, Web Development, Local SEO, Service & Location Page Development, Quote Form Development, Google Review Integration, Lead Generation, Conversion Optimization and Responsive Design.",
+    link: "https://junkrobbers.com/",
   },
 
   {
@@ -721,13 +739,13 @@ export const portfolio = [
     slug: "gloria-cleaning",
     industry: "Cleaning Service",
     category: "Paid Ads",
-    services: ["SEO", "Web Development", "Branding"],
-    result: "+168% organic traffic YoY",
+    services: ["Web Development", "Branding", "SEO", "Paid Ads"],
+    result: "A professional branded website with clear conversion paths and a lead-focused structure, built to support Gloria Cleaning's online advertising and customer acquisition efforts.",
     accent: "from-primary/45 to-accent/25",
     image: gloriaCleaning,
     description:
-      "A digital marketing and website development project focused on improving organic visibility, branding and online customer acquisition.",
-    link: "",
+      "We designed and developed the Gloria Cleaning website as a professional, conversion-focused cleaning service platform using WordPress, with a strong focus on branding, lead generation and advertising support. Our work included creating a clean and trustworthy visual identity, developing responsive WordPress layouts, organizing the website around residential, commercial, janitorial and specialized cleaning services, and creating clear service-focused sections that help visitors quickly understand what Gloria Cleaning offers. The website also includes strong Free Quote, Contact and Call-to-Action elements designed to turn website visitors into potential customers. gloriacleaning.com We worked on the site's branding and visual presentation to create a consistent professional image across the website, while structuring service and location content to support local customer acquisition across New York and surrounding areas. gloriacleaning.com Alongside the website development, our work included lead-generation strategy and advertising support, using the website's quote and contact pathways as conversion points for paid traffic and potential customer acquisition. Overall, the project combined WordPress Development, UI/UX Design, Branding, Responsive Design, Lead Generation, Advertising Support, Service-Page Development and Conversion Optimization to build a stronger digital presence for Gloria Cleaning.",
+    link: "https://gloriacleaning.com/",
   },
 
   {

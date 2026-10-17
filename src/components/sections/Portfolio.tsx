@@ -117,7 +117,7 @@ export function Portfolio({
                     </span>
                   ))}
                 </div>
-                <p className="mt-4 font-display text-sm font-bold text-accent">{p.result}</p>
+                <p className="mt-4 text-sm text-muted-foreground">{p.result}</p>
               </div>
             </article>
           ))}
