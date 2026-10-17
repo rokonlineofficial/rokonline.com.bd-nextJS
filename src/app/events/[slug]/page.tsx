@@ -95,7 +95,7 @@ export default async function EventDetail({ params }: Props) {
               <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                 {items.map((m) => (
                   <EventMedia
-                    key={m.src}
+                    key={m.type === "youtube" ? m.url : m.src}
                     media={m}
                     title={event.title}
                     sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
