@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Play } from "lucide-react";
 import type { EventMedia as MediaItem } from "@/lib/events-data";
+import { youtubeId } from "@/lib/event-utils";
 
 type Props = {
   media: MediaItem;
@@ -31,7 +32,16 @@ export function EventMedia({ media, title, href, sizes = DEFAULT_SIZES }: Props)
 
   const frame =
     "relative aspect-[4/3] overflow-hidden rounded-2xl border border-border bg-black";
-  const src = media.type === "image" ? media.src : media.thumbnail;
+
+  const ytId = media.type === "youtube" ? youtubeId(media.url) : null;
+  if (media.type === "youtube" && !ytId) return null; // ভুল লিংক হলে কিছু দেখাবে না
+
+  const src =
+    media.type === "image"
+      ? media.src
+      : media.type === "video"
+        ? media.thumbnail
+        : (media.thumbnail ?? `https://img.youtube.com/vi/${ytId}/hqdefault.jpg`);
   const alt =
     media.alt ?? (media.type === "image" ? title : `${title} video thumbnail`);
 
@@ -44,7 +54,7 @@ export function EventMedia({ media, title, href, sizes = DEFAULT_SIZES }: Props)
         sizes={sizes}
         className="object-cover transition-transform duration-500 group-hover:scale-105"
       />
-      {media.type === "video" && <PlayBadge />}
+      {media.type !== "image" && <PlayBadge />}
     </>
   );
 
@@ -66,7 +76,22 @@ export function EventMedia({ media, title, href, sizes = DEFAULT_SIZES }: Props)
     return <div className={`group ${frame}`}>{cover}</div>;
   }
 
-  // ডিটেইল পেজে: ভিডিও, ক্লিক করলে ওখানেই চলবে
+  // ডিটেইল পেজে: YouTube, ক্লিক করলে YouTube-এ নতুন ট্যাবে খুলবে
+  if (media.type === "youtube") {
+    return (
+      <a
+        href={`https://www.youtube.com/watch?v=${ytId}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label={`Watch on YouTube: ${title}`}
+        className={`group block ${frame}`}
+      >
+        {cover}
+      </a>
+    );
+  }
+
+  // ডিটেইল পেজে: নিজের আপলোড করা ভিডিও, ক্লিক করলে ওখানেই চলবে
   return (
     <div className={frame}>
       {playing ? (
